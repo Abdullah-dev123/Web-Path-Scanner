@@ -34,7 +34,7 @@ def check_directory(folder):
 
 # Main thread logic
 try:
-    with open("r.txt", "r", encoding="UTF-8") as df:
+    with open("robots.txt", "r", encoding="UTF-8") as df:
         dict_folder = df.read().splitlines()
         with ThreadPoolExecutor(max_workers=10) as executor:
             executor.map(check_directory, dict_folder)
