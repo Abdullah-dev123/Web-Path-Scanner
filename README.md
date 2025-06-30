@@ -16,7 +16,7 @@ Please always follow ethical hacking practices.
 
 - ⚡ Fast multithreaded scanning
 - 🎨 Color-coded HTTP response codes
-- 📁 Customizable wordlist (`r.txt`)
+- 📁 Customizable wordlist (`robots.txt`)
 - 🔒 Detects protected, hidden, or forbidden paths
 - 🧠 Clean, readable output for quick analysis
 
